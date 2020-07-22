@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: 'Clone ansible all repo'
+    git:
+      repo: 'https://github.com/EduardoVega/ansible-all.git'
+      dest: 'roles'
+      accept_hostkey: yes
+
