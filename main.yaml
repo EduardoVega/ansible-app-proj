@@ -7,6 +7,6 @@
       accept_hostkey: yes
   - name: 'Import linux nginx role'
     import_role:
-      name: linux_nginx
+      name: '/root/roles/linux_nginx'
 
 
