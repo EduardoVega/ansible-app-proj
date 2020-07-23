@@ -1,7 +1,6 @@
 - hosts: all
   tasks:
-  - name: 'Import linux nginx role'
-    import_role:
-      name: 'linux_nginx'
+  - import_role:
+      name: linux_nginx
 
 
