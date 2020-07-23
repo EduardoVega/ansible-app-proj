@@ -5,4 +5,8 @@
       repo: 'https://github.com/EduardoVega/ansible-all.git'
       dest: 'roles'
       accept_hostkey: yes
+  - name: 'Import linux nginx role'
+    import_role:
+      name: linux_nginx
+
 
