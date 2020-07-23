@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-  - import_role:
-      name: linux_nginx
+  - include_role:
+      name: linux-nginx
 
 
